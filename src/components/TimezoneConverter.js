@@ -23,6 +23,7 @@ const TimezoneConverter = () => {
   const [selectedDate, setSelectedDate] = useState(DateTime.now());
   const [darkMode, setDarkMode] = useState(false);
   const [selectedTimezone, setSelectedTimezone] = useState("UTC");
+  console.log(selectedTimezone)
 
   useEffect(() => {
     const updateDateForSelectedTimezone = () => {
